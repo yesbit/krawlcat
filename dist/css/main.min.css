@@ -554,6 +554,8 @@ form .form-control {
 	display: none
 }
 
+
+
 .image-slider .item .slider-image {
 	margin: 0 0 30px;
 	transition: all .2s ease 0s;
@@ -562,13 +564,15 @@ form .form-control {
 	float: right;
 	min-height: 300px;
 	background-size: cover;
-	background-position: center center
+	background-position: center center;
+	opacity: 0.1;
 }
 
 .image-slider .item.slick-active .slider-image {
 	min-height: 350px;
 	min-width: 300px;
 	margin-top: -25px;
+	opacity: 1;
 }
 
 .image-slider .item.slick-active label,
