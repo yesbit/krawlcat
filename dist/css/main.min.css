@@ -136,7 +136,9 @@ label {
 	background-color: transparent;
 	border: 1px solid #e38102;
 	color: #e38102;
-	font-size: 62.5%
+	font-size: 62.5%;
+	outline: none;
+	box-shadow: none;
 }
 
 .btn.btn-line-orange:hover {
@@ -165,7 +167,7 @@ label {
 	transition: all .2s ease 0s;
 	-webkit-transition: all .2s ease 0s;
 	padding: 40px 0 15px;
-	position: fixed
+	position: fixed;
 }
 
 .top-menu .navbar {
@@ -188,20 +190,22 @@ label {
 
 .dropbtn {
 	background-color: transparent;
-	color: #E38102;
-	padding: 16px;
+	color: #fff;
 	font-size: 16px;
 	border: none;
 	width: 65px;
-	font-family: "黑体";
+	font-family: Helvetica;
+	cursor: pointer;
 }
 
 
 /* The container <div> - needed to position the dropdown content */
 
 .dropdown {
-	position: relative;
+	position: absolute;
 	display: inline-block;
+	right: 0;
+	margin: 0;
 }
 
 
@@ -211,9 +215,9 @@ label {
 	display: none;
 	position: absolute;
 	color: #000;
-	background-color: rgba(50, 50, 50, 0.8); 
+	/* background-color: rgba(50, 50, 50, 0.8);  */
 	width: 65px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+	/* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8); */
 	z-index: 1;
 }
 
@@ -231,7 +235,9 @@ label {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-	background-color: #999999;
+	background-color: transparent;
+	color: #E38102;
+	transition: all .5s ease;
 }
 
 
@@ -239,14 +245,16 @@ label {
 
 .dropdown:hover .dropdown-content {
 	display: block;
+	transition: all .5s ease;
 }
 
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-	background-color: #E38102;
-	color: #F7F7F7;
+	background-color: transparent;
+	color:#E38102;
+	transition: all .5s ease;
 }
 
 .navFont {
@@ -393,10 +401,11 @@ form .form-control {
 	margin: 30px 0
 }
 
-.section-company p {
+.section-company p.card-content {
 	font-size: 100%;
 	font-weight: 400;
-	opacity: .5
+	opacity: .5;
+	min-height: 100px;
 }
 
 .section-video {
@@ -683,55 +692,6 @@ form .form-control {
 }
 
 
-/*-------------------------------------------------- [Navbar] ----------------------------------------------------*/
-.main-logo {
-	padding: none !important;
-}
-.dropbtn {
-	background-color: transparent;
-	color: #E38102;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	width: 65px;
-}
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-	display: none;
-	position: absolute;
-	color: #000;
-	background-color: rgba(50, 50, 50, 0.8); 
-	width: 65px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
-	z-index: 1;
-}
-/* Links inside the dropdown */
-.dropdown-content a {
-	color: white;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-}
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-	background-color: #999999;
-}
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-	background-color: #E38102;
-	color: #F7F7F7;
-}
-
-
-
 /*-------------------------------------------------- [Video] ----------------------------------------------------*/
 .video-container {
 	width: 420px;
@@ -789,6 +749,21 @@ form .form-control {
 	opacity: 0.7;
 	pointer-events: none;
 }
+
+i.lang{
+	font-size: 35px;
+}
+
+.main-logo {
+	width: 250px;
+}
+
+@media screen and (max-width: 374px) {
+	.main-logo {
+		width: 150px;
+	}
+}
+
 @media screen and (max-width: 750px) {
 	#usecase img {
 		height: 50%;
