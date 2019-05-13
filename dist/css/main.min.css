@@ -67,7 +67,7 @@ label {
 }
 
 .orange {
-	color: #e97739 !important;
+	color: rgb(190, 124, 98) !important;
 }
 
 .btn {
@@ -86,7 +86,7 @@ label {
 .btn.btn-orange {
 	min-width: 160px;
 	line-height: 38px;
-	background-color: #e97739;
+	background-color: rgb(190, 124, 98);
 	color: #fff;
 	font-size: 62.5%;
 	margin-right: 10px
@@ -94,14 +94,14 @@ label {
 
 .btn.btn-orange:hover {
 	background-color: #1b1b1b;
-	color: #e97739
+	color: rgb(190, 124, 98)
 }
 
 .btn.btn-orange-dark {
 	min-width: 160px;
 	line-height: 35px;
 	padding-top: 3px;
-	background-color: #e97739;
+	background-color: rgb(190, 124, 98);
 	color: #1e1e1e;
 	font-weight: 500;
 	font-size: 62.5%;
@@ -110,7 +110,7 @@ label {
 
 .btn.btn-orange-dark:hover {
 	background-color: #fff;
-	color: #e97739
+	color: rgb(190, 124, 98)
 }
 
 .btn.btn-dark-orange {
@@ -118,7 +118,7 @@ label {
 	line-height: 35px;
 	padding-top: 3px;
 	background-color: #1e1e1e;
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	font-weight: 500;
 	font-size: 62.5%;
 	margin-right: 10px;
@@ -127,22 +127,22 @@ label {
 
 .btn.btn-dark-orange:hover {
 	background-color: #fff;
-	color: #e97739
+	color: rgb(190, 124, 98)
 }
 
 .btn.btn-line-orange {
 	min-width: 160px;
 	line-height: 36px;
 	background-color: transparent;
-	border: 1px solid #e97739;
-	color: #e97739;
+	border: 1px solid rgb(190, 124, 98);
+	color: rgb(190, 124, 98);
 	font-size: 62.5%;
 	outline: none;
 	box-shadow: none;
 }
 
 .btn.btn-line-orange:hover {
-	background-color: #e97739;
+	background-color: rgb(190, 124, 98);
 	color: #1b1b1b
 }
 
@@ -150,7 +150,7 @@ label {
 	min-width: 220px;
 	line-height: 46px;
 	background-color: #1b1b1b;
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	font-size: 87.5%
 }
 
@@ -181,7 +181,7 @@ label {
 	position: relative;
 	top: 8px;
 	background-color: Transparent;
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	border: none;
 	font-family: "微软雅黑";
 	font-size: 100%;
@@ -236,7 +236,7 @@ label {
 
 .dropdown-content a:hover {
 	background-color: transparent;
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	transition: all .5s ease;
 }
 
@@ -253,7 +253,7 @@ label {
 
 .dropdown:hover .dropbtn {
 	background-color: transparent;
-	color:#e97739;
+	color:rgb(190, 124, 98);
 	transition: all .5s ease;
 }
 
@@ -300,7 +300,7 @@ label {
 	background-color: #1e1e1e
 }
 
-.section-newsletter:after, .section-newsletter.head:after {
+.section-newsletter:after {
 	content: '';
 	position: absolute;
 	right: 0;
@@ -311,13 +311,17 @@ label {
 	border-left: 120px solid transparent
 }
 
+.section-newsletter.head:after {
+	border-bottom: unset;
+}
+
 .section-newsletter .container {
 	position: relative;
 	z-index: 10
 }
 
 .section-newsletter label {
-	color: #e97739
+	color: rgb(190, 124, 98)
 }
 
 .section-newsletter h2 {
@@ -330,7 +334,7 @@ label {
 }
 
 .section-newsletter.orange-bg {
-	background-color: #e97739
+	background-color: rgb(201, 105, 67)
 }
 
 .section-newsletter.orange-bg label,
@@ -354,7 +358,7 @@ form .form-control {
 
 .form-head .form-control {
 	min-height: 56px;
-	min-width: 300px;
+	min-width: 200px;
 	background-color: rgb(14, 10, 6);
 	opacity: .8;
 	border: solid thin black;
@@ -393,7 +397,7 @@ form .form-control {
 	-moz-box-shadow: 0 22px 41px rgba(0, 0, 0, 0.29);
 	transition: all .8s ease;
 	background-color: #292828 !important;
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	border-radius: 10px;
 }
 
@@ -540,7 +544,7 @@ form .form-control {
 
 .section-table .table-responsive-holder thead tr th:hover,
 .section-table .table-responsive-holder thead tr th:focus {
-	color: #e97739
+	color: rgb(190, 124, 98)
 }
 
 .section-table .table-responsive-holder tbody tr:nth-child(even) {
@@ -559,7 +563,7 @@ form .form-control {
 
 .section-table .table-responsive-holder tbody tr td:first-child {
 	opacity: 1;
-	color: #e97739
+	color: rgb(190, 124, 98)
 }
 
 .section-table .table-responsive-holder tbody tr td:first-child:hover:after,
@@ -654,7 +658,7 @@ form .form-control {
 }
 
 .footer .footer-holder label {
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	text-transform: uppercase
 }
 
@@ -673,7 +677,7 @@ form .form-control {
 }
 
 .footer .footer-holder .navbar-nav .nav-item .nav-link:hover {
-	color: #e97739;
+	color: rgb(190, 124, 98);
 	transition: all .5s ease;
 }
 
@@ -757,6 +761,19 @@ i.lang{
 .main-logo {
 	width: 250px;
 }
+
+.function-img {
+	width: 48px;
+	transition: all .2s ease;
+}
+
+.company-holder:hover .function-img {
+	border: 1px solid;
+	box-shadow: 5px 10px;
+	transition: all .2s ease;
+}
+
+
 
 @media screen and (max-width: 374px) {
 	.main-logo {
