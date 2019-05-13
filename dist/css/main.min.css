@@ -710,6 +710,7 @@ form .form-control {
 .video-container > video {
 	width: 100%;
 	vertical-align: middle;
+	height: auto;
 }
 /* .video-container > video.has-media-controls-hidden::-webkit-media-controls {
 	display: none;
