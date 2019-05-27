@@ -208,6 +208,29 @@ label {
 	margin: 0;
 }
 
+.dropdown.intro {
+	position: absolute;
+	display: inline-block;
+	margin: 0;
+}
+
+.dropbtn.intro {
+	font-size: 30px;
+}
+
+.dropdown.intro .dropdown-content a {
+	padding: unset;
+}
+
+#intro_link:hover #intro_qr{
+	display: block;
+	width: 50px;
+}
+
+#intro_qr {
+	display: none;
+}
+
 
 /* Dropdown Content (Hidden by Default) */
 
