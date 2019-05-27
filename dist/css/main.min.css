@@ -218,9 +218,6 @@ label {
 	font-size: 30px;
 }
 
-.dropdown.intro .dropdown-content a {
-	padding: unset;
-}
 
 #intro_link:hover #intro_qr{
 	display: block;
@@ -249,7 +246,8 @@ label {
 
 .dropdown-content a {
 	color: white;
-	padding: 12px 16px;
+	padding: 12px 2px;
+	text-align: center;
 	text-decoration: none;
 	display: block;
 }
