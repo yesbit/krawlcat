@@ -19,6 +19,11 @@ Description -> Bringing off chain data to the blockchain
 lending blockchain -> Blockchain Interoperability
 Description -> Facilatining communication between closed blockchain protocols 
 
+# other things to remove competely (for now) 
+
+- INNOVATIVE TECHNOLOGY section with the videos 
+- HOW DOES IT WORK? section
+- WHY US? section 
 
 # addtional 
 
