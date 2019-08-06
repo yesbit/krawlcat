@@ -11,13 +11,13 @@ remove - THE FIRST BLOCKCHAIN DATA FEED, Everyone can be Bloomberg on Blockchain
 remove everything - crypto derivative, stable coin system 
 keep logo - crypto exchange, lending blockchain 
 
-changes -
+### changes 
 
-crypto exchange -> Blockchain Oracle 
-Description -> Bringing off chain data to the blockchain 
+- crypto exchange -> Blockchain Oracle 
+- Description -> Bringing off chain data to the blockchain 
 
-lending blockchain -> Blockchain Interoperability
-Description -> Facilatining communication between closed blockchain protocols 
+- lending blockchain -> Blockchain Interoperability
+ Description -> Facilatining communication between closed blockchain protocols 
 
 # other things to remove competely (for now) 
 
