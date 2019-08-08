@@ -1,123 +1,145 @@
 ﻿<!DOCTYPE html>
 <html>
 
-	<head>
-		<title>KrawlCat</title>
-		<meta charset="UTF-8">
-		<meta name="description" content="KrawlCat网络由成千上万数据源组成，每一个数据源请求网络数据源后录入智能合约。智能合约选择合理数据后进行中位数更新，整个过程及时透明，数据符合去中心化要求。" />
-		<meta property="og:description" content="KrawlCat网络由成千上万数据源组成，每一个数据源请求网络数据源后录入智能合约。智能合约选择合理数据后进行中位数更新，整个过程及时透明，数据符合去中心化要求。" />
-		<meta name="twitter:description" content="KrawlCat网络由成千上万数据源组成，每一个数据源请求网络数据源后录入智能合约。智能合约选择合理数据后进行中位数更新，整个过程及时透明，数据符合去中心化要求。" />
-		<meta name="keywords" content="krawlcat, crawlcat, yesbit, Blockchain,Miner,bitcoin,Bitcoin,linkcoin,Yesbit,ERC20,Oracle,预言机,POD,Proof of Data,比特币,数字资产,以太坊,上链, 克拉猫">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-		<link href="./dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		<link href="./dist/js/slick/slick.css" rel="stylesheet" type="text/css" />
-		<link href="./dist/css/main.min.css" rel="stylesheet" type="text/css" />
-		<link rel="icon" sizes="57x57" href="./dist/img/fav.png">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	</head>
+<head>
+	<title>KrawlCat</title>
+	<meta charset="UTF-8">
+	<meta name="description"
+		content="KrawlCat网络由成千上万数据源组成，每一个数据源请求网络数据源后录入智能合约。智能合约选择合理数据后进行中位数更新，整个过程及时透明，数据符合去中心化要求。" />
+	<meta property="og:description"
+		content="KrawlCat网络由成千上万数据源组成，每一个数据源请求网络数据源后录入智能合约。智能合约选择合理数据后进行中位数更新，整个过程及时透明，数据符合去中心化要求。" />
+	<meta name="twitter:description"
+		content="KrawlCat网络由成千上万数据源组成，每一个数据源请求网络数据源后录入智能合约。智能合约选择合理数据后进行中位数更新，整个过程及时透明，数据符合去中心化要求。" />
+	<meta name="keywords"
+		content="krawlcat, crawlcat, yesbit, Blockchain,Miner,bitcoin,Bitcoin,linkcoin,Yesbit,ERC20,Oracle,预言机,POD,Proof of Data,比特币,数字资产,以太坊,上链, 克拉猫">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.1/css/all.css"
+		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link href="./dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="./dist/js/slick/slick.css" rel="stylesheet" type="text/css" />
+	<link href="./dist/css/main.min.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" sizes="57x57" href="./dist/img/fav.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
 
-	<body>
-		<div class="top-menu">
-			<div class="container">
-				<div class="navbar navbar-expand-lg d-flex ">
-					<a class="navbar-brand main-logo" href="#"><img src="./dist/img/logo.png" /></a>
-					<div class="dropdown">
-						<button class="dropbtn"><i class="fa fa-language lang" aria-hidden="true"></i>
-						</button>
-						<div class="dropdown-content">
-							<a href="index.html">ENG</a>
-							<a href="index-cn.html">中文</a>
-							<a id="intro_link" href="docs/intro_CN_2.4.pdf" target="_blank">
-								介绍
-								<img id="intro_qr" src="dist/img/intro.png">
-							</a>
-						</div> 
+<body>
+	<div class="top-menu">
+		<div class="container">
+			<div class="navbar navbar-expand-lg d-flex ">
+				<a class="navbar-brand main-logo" href="#"><img src="./dist/img/logo.png" /></a>
+				<div class="dropdown">
+					<button class="dropbtn"><i class="fa fa-language lang" aria-hidden="true"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="index.html">ENG</a>
+						<a href="index-cn.html">中文</a>
+						<a id="intro_link" href="docs/intro_CN_2.4.pdf" target="_blank">
+							介绍
+							<img id="intro_qr" src="dist/img/intro.png">
+						</a>
 					</div>
 				</div>
-				<!-- /.navbar-header -->
 			</div>
+			<!-- /.navbar-header -->
 		</div>
+	</div>
 
-		<section class="hero">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 text-center section-title">
-						<label class="orange">介绍</label>
-						<h1 class="white">首款数据源<br />矿机网络</h1>
-					</div>
-					<!-- <div class="col-12 text-center">
+	<section class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center section-title">
+					<label class="orange">克拉猫</label>
+					<h1 class="white">区块链预言机<br /></h1>
+				</div>
+				<!-- <div class="col-12 text-center">
 						<a class="btn btn-orange" href="#section-video">了解详情</a>
 						<a class="btn btn-line-orange" href="#section-preorder orange-bg">预售</a>
 					</div> -->
 
-					<div class="container" style="max-width: 900px;">
-						<div class="introduction">
-							<p style="text-align: center;"><br />
+				<div class="container" style="max-width: 900px;">
+					<div class="introduction">
+						<!-- <p style="text-align: center;"><br />
 								<font size="5" color="#FFFFFF"><br>人人都能成为区块链中的彭博社</font>
+							</p> -->
+						<div class="section-title">
+							<p style="text-align: center;"><br />
+								<label class="orange">现在预订</label>
 							</p>
-							<div class="section-title">
-								<p style="text-align: center;"><br />
-									<label class="orange">现在预订</label>
-								</p>
-							</div>
-							<section class="section-newsletter head">
-								<div class="container center_div">
-									<div class="row">
-										<div class="col-12  d-flex justify-content-center flex-column ">
-											<form class="form-head" action="https://Yesbit.us17.list-manage.com/subscribe/post?u=235ef0b5261ed31b241b5ae77&amp;id=42afca6486" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-												<div class="row">
-													<div class="col-12">
-														<input class="form-control col-12" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
-													</div>
-					
-													<div class="col-12">
-														<button type="submit" id="mc-embedded-subscribe" class="btn btn-orange-dark">点击订阅</button>
-													</div>
+						</div>
+						<section class="section-newsletter head">
+							<div class="container center_div">
+								<div class="row">
+									<div class="col-12  d-flex justify-content-center flex-column ">
+										<form class="form-head"
+											action="https://Yesbit.us17.list-manage.com/subscribe/post?u=235ef0b5261ed31b241b5ae77&amp;id=42afca6486"
+											method="post" id="mc-embedded-subscribe-form"
+											name="mc-embedded-subscribe-form" class="validate" target="_blank"
+											novalidate>
+											<div class="row">
+												<div class="col-12">
+													<input class="form-control col-12" type="email" value=""
+														name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email"
+														required>
 												</div>
-											</form>
-										</div>
+
+												<div class="col-12">
+													<button type="submit" id="mc-embedded-subscribe"
+														class="btn btn-orange-dark">点击订阅</button>
+												</div>
+											</div>
+										</form>
 									</div>
 								</div>
-							</section>
-						</div>
-					</div>
-			</div>
+							</div>
+						</section>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="section-company">
-			<div class="container">
-				<div>
-					<br />
-					<br />
-					<div class="row">
-						<div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
+		</div>
+		</div>
+		</div>
+	</section>
+	<section class="section-company">
+		<div class="container">
+			<div>
+				<br />
+				<br />
+				<div class="row">
+					<!-- <div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
 							<img class="function-img" src="./dist/img/img1.png" alt="img1" />
 							<label class="section-title white">加密货币指数 </label>
 							<p class="white card-content">价格数据上链搭建去中心化金融系统</p>
-						</div>
-						<div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
+						</div> -->
+					<!-- <div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
 							<img class="function-img" src="./dist/img/img2.png" alt="img2" />
 							<label class="section-title white">加密货币交易所</label>
 							<p class="white card-content">价格数据上链搭建去中心化交易所</p>
-						</div>
-						<div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
+						</div> -->
+					<div class="col-md-6 company-holder d-flex justify-content-center align-items-center flex-column">
+						<img class="function-img" src="./dist/img/img2.png" alt="img2" />
+						<label class="section-title white">区块链预言机</label>
+						<p class="white card-content">传输链下现实市场数据上链</p>
+					</div>
+					<!-- <div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
 							<img class="function-img" src="./dist/img/img3.png" alt="img3" />
 							<label class="section-title white">稳定币系统</label>
 							<p class="white card-content">提供价格数据向MakerDAO DAI智能合约</p>
-						</div>
-						<div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
+						</div> -->
+					<!-- <div class="col-12 col-md-6 col-lg-3 company-holder d-flex justify-content-center align-items-start flex-column">
 							<img class="function-img" src="./dist/img/img4.png" alt="img4" />
 							<label class="section-title white">区块链借贷 </label>
-							<p class="white card-content">提供价格数据准备自动存取款 </p>
-						</div>
+							<p class="white card-content">提供价格数据准备自动存取款 </p> -->
+					<div class="col-md-6 company-holder d-flex justify-content-center align-items-center flex-column">
+						<img class="function-img" src="./dist/img/img4.png" alt="img4" />
+						<label class="section-title white">区块链互通性 </label>
+						<p class="white card-content">简化区块链各协议之间的沟通</p>
 					</div>
 				</div>
-		</section>
-		<section id="section-video">
+			</div>
+	</section>
+	<!-- <section id="section-video">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-md-8 offset-md-2 text-center">
@@ -253,268 +275,276 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<section id="section-slider">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-12 text-center">
-						<label class="section-title orange">最新产品</label>
-						<h3 class="section-title white">Krawlcat K1</h3>
-					</div>
+		</section> -->
+	<section id="section-slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 text-center">
+					<label class="section-title orange">最新产品</label>
+					<h3 class="section-title white">Krawlcat K1</h3>
 				</div>
-				<div class="row no-gutters">
-					<div class="col-12 col-md">
-						<div class="image-slider">
-							<div class="item">
-								<div class="slider-image" style="background-image: url(./dist/img/slider1.jpg);"></div>
-								<div class="w-100"></div>
-								<label class="orange">内部</label>
-								<h5 class="white">结构展示</h5>
-							</div>
-							<div class="item">
-								<div class="slider-image" style="background-image: url(./dist/img/slider2.jpg);"></div>
-								<div class="w-100"></div>
-								<label class="orange">便携</label>
-								<h5 class="white">体积小巧</h5>
-							</div>
-							<div class="item">
-								<div class="slider-image" style="background-image: url(./dist/img/slider3.jpg);"></div>
-								<div class="w-100"></div>
-								<label class="orange">运行</label>
-								<h5 class="white">同步数据</h5>
-							</div>
-
-							<div class="item">
-								<div class="slider-image" style="background-image: url(./dist/img/slider4.jpg);"></div>
-								<div class="w-100"></div>
-								<label class="orange">数据连接</label>
-								<h5 class="white">多USB插口</h5>
-							</div>
-							<div class="item">
-								<div class="slider-image" style="background-image: url(./dist/img/slider5.jpg);"></div>
-								<div class="w-100"></div>
-								<label class="orange">显示器</label>
-								<h5 class="white">7英寸可触屏</h5>
-							</div>
-							<div class="item">
-								<div class="slider-image" style="background-image: url(./dist/img/slider6.jpg);"></div>
-								<div class="w-100"></div>
-								<label class="orange">机器侧身</label>
-								<h5 class="white">厚度轻薄</h5>
-							</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-12 col-md">
+					<div class="image-slider">
+						<div class="item">
+							<div class="slider-image" style="background-image: url(./dist/img/slider1.jpg);"></div>
+							<div class="w-100"></div>
+							<label class="orange">内部</label>
+							<h5 class="white">结构展示</h5>
+						</div>
+						<div class="item">
+							<div class="slider-image" style="background-image: url(./dist/img/slider2.jpg);"></div>
+							<div class="w-100"></div>
+							<label class="orange">便携</label>
+							<h5 class="white">体积小巧</h5>
+						</div>
+						<div class="item">
+							<div class="slider-image" style="background-image: url(./dist/img/slider3.jpg);"></div>
+							<div class="w-100"></div>
+							<label class="orange">运行</label>
+							<h5 class="white">同步数据</h5>
 						</div>
 
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section-newsletter orange-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-md-5 pl-0 pl-md-5 section-title">
-						<label>现在预订</label>
-						<h2><font size="6">新鲜事<br/>早知道</font> </h2>
-					</div>
-					<div class="col-12 col-md-7 d-flex justify-content-center align-items-start flex-column">
-						<form action="https://Yesbit.us17.list-manage.com/subscribe/post?u=235ef0b5261ed31b241b5ae77&amp;id=42afca6486" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-							<div class="row">
-								<div class="col-12 col-md-11">
-									<input class="form-control col-12 col-md-7 col-lg-5" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="邮箱" required>
-								</div>
-
-								<div class="col-12">
-									<button type="submit" id="mc-embedded-subscribe" class="btn btn-dark-orange">点击订阅</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="footer">
-			<div class="container">
-				<div class="row footer-holder">
-					<div class="col-12 col-md-2 mb-5 mb-md-0">
-						<label>Krawlcat</label>
-						<ul class="navbar-nav d-flex justify-content-end align-items-center">
-							<li class="nav-item">
-								<a class="nav-link" href="mailto:support@krawlcat.com">联系我们</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">代币</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#section-newsletter">预售</a>
-							</li>
-						</ul>
-					</div>
-
-					<div class="col-12 col-md-2 mb-5 mb-md-0">
-						<label>更新</label>
-						<ul class="navbar-nav d-flex justify-content-end align-items-center">
-							<li class="nav-item">
-								<a class="nav-link" href="#">新闻</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">产品路线图</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">奖励机制</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-12 col-md-2 mb-5 mb-md-0">
-						<label>社交媒体</label>
-						<ul class="navbar-nav d-flex justify-content-end align-items-center">
-							<li class="nav-item">
-								<a class="nav-link" href="https://www.facebook.com/KrawlCat-323214121556492/?modal=admin_todo_tour">Facebook</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Instagram</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="https://twitter.com/KrawlCat">Twitter</a>
-							</li>
-						</ul>
-					</div>
-
-					<div class="col-12 col-md-2 offset-md-2">
-						<a href="#">
-							<img src="dist/img/logo.png" width="400px" />
-						</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<p>2018-2019 Krawlcat
-							<a href="mailto:support@krawlcat.com">support@krawlcat.com</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<script type="text/javascript" src="./dist/js/jquery-3-3-1.min.js"></script>
-		<script type="text/javascript" src="./dist/js/bootstrap.bundle.min.js"></script>
-		<script type="text/javascript" src="./dist/js/slick/slick.js"></script>
-		<script type="text/javascript" src="./dist/js/custom.js"></script>
-
-		<div id="youtubem" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="btn btn-x" data-dismiss="modal"><i class="fa fa-times"></i></button>
-					</div>
-					<div class="modal-body">
-						<div class="videoWrapper">
-							<div class="player"></div>
+						<div class="item">
+							<div class="slider-image" style="background-image: url(./dist/img/slider4.jpg);"></div>
+							<div class="w-100"></div>
+							<label class="orange">数据连接</label>
+							<h5 class="white">多USB插口</h5>
 						</div>
+						<div class="item">
+							<div class="slider-image" style="background-image: url(./dist/img/slider5.jpg);"></div>
+							<div class="w-100"></div>
+							<label class="orange">显示器</label>
+							<h5 class="white">7英寸可触屏</h5>
+						</div>
+						<div class="item">
+							<div class="slider-image" style="background-image: url(./dist/img/slider6.jpg);"></div>
+							<div class="w-100"></div>
+							<label class="orange">机器侧身</label>
+							<h5 class="white">厚度轻薄</h5>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-newsletter orange-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-5 pl-0 pl-md-5 section-title">
+					<label>现在预订</label>
+					<h2>
+						<font size="6">新鲜事<br />早知道</font>
+					</h2>
+				</div>
+				<div class="col-12 col-md-7 d-flex justify-content-center align-items-start flex-column">
+					<form
+						action="https://Yesbit.us17.list-manage.com/subscribe/post?u=235ef0b5261ed31b241b5ae77&amp;id=42afca6486"
+						method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+						target="_blank" novalidate>
+						<div class="row">
+							<div class="col-12 col-md-11">
+								<input class="form-control col-12 col-md-7 col-lg-5" type="email" value="" name="EMAIL"
+									class="email" id="mce-EMAIL" placeholder="邮箱" required>
+							</div>
+
+							<div class="col-12">
+								<button type="submit" id="mc-embedded-subscribe"
+									class="btn btn-dark-orange">点击订阅</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container">
+			<div class="row footer-holder">
+				<div class="col-12 col-md-2 mb-5 mb-md-0">
+					<label>Krawlcat</label>
+					<ul class="navbar-nav d-flex justify-content-end align-items-center">
+						<li class="nav-item">
+							<a class="nav-link" href="mailto:support@krawlcat.com">联系我们</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">代币</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-newsletter">预售</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-md-2 mb-5 mb-md-0">
+					<label>更新</label>
+					<ul class="navbar-nav d-flex justify-content-end align-items-center">
+						<li class="nav-item">
+							<a class="nav-link" href="#">新闻</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">产品路线图</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">奖励机制</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-2 mb-5 mb-md-0">
+					<label>社交媒体</label>
+					<ul class="navbar-nav d-flex justify-content-end align-items-center">
+						<li class="nav-item">
+							<a class="nav-link"
+								href="https://www.facebook.com/KrawlCat-323214121556492/?modal=admin_todo_tour">Facebook</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Instagram</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://twitter.com/KrawlCat">Twitter</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-md-2 offset-md-2">
+					<a href="#">
+						<img src="dist/img/logo.png" width="400px" />
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<p>2018-2019 Krawlcat
+						<a href="mailto:support@krawlcat.com">support@krawlcat.com</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="./dist/js/jquery-3-3-1.min.js"></script>
+	<script type="text/javascript" src="./dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./dist/js/slick/slick.js"></script>
+	<script type="text/javascript" src="./dist/js/custom.js"></script>
+
+	<div id="youtubem" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn btn-x" data-dismiss="modal"><i class="fa fa-times"></i></button>
+				</div>
+				<div class="modal-body">
+					<div class="videoWrapper">
+						<div class="player"></div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!--Youtube script-->
-		<script>
-			var rand = Math.floor((Math.random() * 1000) + 1);
-			jQuery('.player').attr('id', 'player' + rand);
+	<!--Youtube script-->
+	<script>
+		var rand = Math.floor((Math.random() * 1000) + 1);
+		jQuery('.player').attr('id', 'player' + rand);
 
-			if(document.getElementById('iframe_api') === null) {
-				var tag = document.createElement('script');
-				tag.src = "https://www.youtube.com/iframe_api";
-				tag.id = "iframe_api";
-				var firstScriptTag = document.getElementsByTagName('script')[0];
-				firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
-			} else {
-				runplayer();
-			}
-			var player;
-			var done = false;
+		if (document.getElementById('iframe_api') === null) {
+			var tag = document.createElement('script');
+			tag.src = "https://www.youtube.com/iframe_api";
+			tag.id = "iframe_api";
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+		} else {
+			runplayer();
+		}
+		var player;
+		var done = false;
 
-			function runplayer() {
-				player = new YT.Player('player' + rand, {
-					height: '480',
-					width: '853',
-					events: {
-						'onReady': onPlayerReady,
-						'onStateChange': onPlayerStateChange
-					},
-					playerVars: {
-						controls: 1,
-						rel: 0
-
-					}
-				});
-			}
-
-			function onYouTubeIframeAPIReady() {
-				runplayer();
-			}
-
-			function onPlayerReady(event) {
-
-			}
-
-			function starter(video) {
-				player.loadVideoById(video, 0, "large");
-			}
-
-			function onPlayerStateChange(event) {
-				if(player.getPlayerState() == 1) {
-					if(player.isMuted() == true) {
-						player.unMute();
-					}
-				}
-				if(event.data == YT.PlayerState.PLAYING && !done) {
+		function runplayer() {
+			player = new YT.Player('player' + rand, {
+				height: '480',
+				width: '853',
+				events: {
+					'onReady': onPlayerReady,
+					'onStateChange': onPlayerStateChange
+				},
+				playerVars: {
+					controls: 1,
+					rel: 0
 
 				}
-				if(event.data === 0) {}
-			}
-			jQuery('.btn-video').click(function(e) {
-				e.preventDefault();
-				var v = jQuery(this).attr('href');
-				if(v == undefined) {
-					var v = jQuery(this).parent().attr('href');
+			});
+		}
+
+		function onYouTubeIframeAPIReady() {
+			runplayer();
+		}
+
+		function onPlayerReady(event) {
+
+		}
+
+		function starter(video) {
+			player.loadVideoById(video, 0, "large");
+		}
+
+		function onPlayerStateChange(event) {
+			if (player.getPlayerState() == 1) {
+				if (player.isMuted() == true) {
+					player.unMute();
 				}
-				var videoid = v.split("?v=");
-				starter(videoid[1]);
-				jQuery('#youtubem').modal('show');
-
-			});
-			jQuery('#youtubem.modal.fade.in').click(function() {
-				window.player.stopVideo();
-			});
-			jQuery('#youtubem button,#youtubem').click(function() {
-				window.player.stopVideo();
-			});
-
-			function over() {
-				img = document.getElementById("img");
-				img.style.display = "block";
 			}
+			if (event.data == YT.PlayerState.PLAYING && !done) {
 
-			function out() {
-				img = document.getElementById("img");
-				img.style.display = "none";
 			}
+			if (event.data === 0) { }
+		}
+		jQuery('.btn-video').click(function (e) {
+			e.preventDefault();
+			var v = jQuery(this).attr('href');
+			if (v == undefined) {
+				var v = jQuery(this).parent().attr('href');
+			}
+			var videoid = v.split("?v=");
+			starter(videoid[1]);
+			jQuery('#youtubem').modal('show');
 
-			function showPic(e, sUrl) {
-				var x, y;
-				x = e.clientX;
-				y = e.clientY;
-				document.getElementById("Layer1").style.left = x + 2 + 'px';
-				document.getElementById("Layer1").style.top = y + 2 + 'px';
-				document.getElementById("Layer1").innerHTML = "<img border='0' src=\"" + sUrl + "\">";
-				document.getElementById("Layer1").style.display = "";
-			}
+		});
+		jQuery('#youtubem.modal.fade.in').click(function () {
+			window.player.stopVideo();
+		});
+		jQuery('#youtubem button,#youtubem').click(function () {
+			window.player.stopVideo();
+		});
 
-			function hiddenPic() {
-				document.getElementById("Layer1").innerHTML = "";
-				document.getElementById("Layer1").style.display = "none";
-			}
-		</script>
-	</body>
+		function over() {
+			img = document.getElementById("img");
+			img.style.display = "block";
+		}
+
+		function out() {
+			img = document.getElementById("img");
+			img.style.display = "none";
+		}
+
+		function showPic(e, sUrl) {
+			var x, y;
+			x = e.clientX;
+			y = e.clientY;
+			document.getElementById("Layer1").style.left = x + 2 + 'px';
+			document.getElementById("Layer1").style.top = y + 2 + 'px';
+			document.getElementById("Layer1").innerHTML = "<img border='0' src=\"" + sUrl + "\">";
+			document.getElementById("Layer1").style.display = "";
+		}
+
+		function hiddenPic() {
+			document.getElementById("Layer1").innerHTML = "";
+			document.getElementById("Layer1").style.display = "none";
+		}
+	</script>
+</body>
 
 </html>
