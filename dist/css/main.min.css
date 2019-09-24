@@ -66,10 +66,6 @@ label {
   color: #fff;
 }
 
-.golden-pink {
-  color: #be7c62;
-}
-
 .gray {
   color: #8f8f8f;
 }
@@ -403,9 +399,13 @@ form .form-control {
   padding: 40px 0 60px;
 }
 
-.section-company .intruduction {
+.section-company .introduction {
   padding: 40px 0 60px;
   font-size: 3;
+}
+
+.company-holder p.card-content {
+  opacity: 0.5;
 }
 
 .section-company .company-holder {
