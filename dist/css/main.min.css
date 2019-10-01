@@ -55,7 +55,7 @@ h5 {
 }
 
 label {
-  font-size: 112.5%;
+  font-size: 25px;
 }
 
 .dark {
@@ -406,6 +406,9 @@ form .form-control {
 
 .company-holder p.card-content {
   opacity: 0.5;
+  font-size: 20px;
+
+  margin-right: 40px;
 }
 
 .section-company .company-holder {
@@ -431,6 +434,7 @@ form .form-control {
   font-weight: 400;
   opacity: 0.5;
   min-height: 100px;
+  font-size: 20px;
 }
 
 .section-video {
@@ -693,6 +697,7 @@ form .form-control {
 
 .footer .footer-holder .navbar-nav .nav-item .nav-link {
   color: #fff;
+  font-size: 18px;
 }
 
 .footer .footer-holder .navbar-nav .nav-item .nav-link:hover {
@@ -875,4 +880,8 @@ i.lang {
   .section-title h1 {
     font-size: inherit;
   }
+}
+
+.company-holder p.g-intro {
+  margin-left: 40px;
 }
