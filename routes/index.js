@@ -19,7 +19,9 @@ router.get('/supernode-cn', function(req, res, next) {
 });
 
 router.get('/swap-all', function(req, res, next) {
-  res.render('swap-all', { title: 'Express' });
+  res.render('Swapall', { title: 'Express' });
 });
+
+
 
 module.exports = router;

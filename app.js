@@ -28,6 +28,7 @@ app.use('/img',express.static(path.join(__dirname, 'public/img')))
 app.use('/js',express.static(path.join(__dirname, 'public/js')))
 app.use('/css',express.static(path.join(__dirname, 'public/css')))
 
+app.use('/public/Swapall',express.static(path.join(__dirname, 'public/Swapall')))
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
