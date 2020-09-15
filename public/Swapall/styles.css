@@ -7606,7 +7606,7 @@ hero
     left: -30%;
     bottom: -12%;
     opacity: 0.5; }
-  .hero-wrapper .unitrade-preview-dashboard {
+  .hero-wrapper .swapall-preview-dashboard {
     width: 120%;
     height: auto;
     position: absolute;
@@ -7617,13 +7617,13 @@ hero
 /***
 platform
 ***/
-#unitrade-platform {
+#swapall-platform {
   position: relative;
   overflow: hidden;
   min-height: 1140px; }
-  #unitrade-platform h1, #unitrade-platform p, #unitrade-platform ul {
+  #swapall-platform h1, #swapall-platform p, #swapall-platform ul {
     margin-bottom: 40px; }
-  #unitrade-platform .bg-img-1 {
+  #swapall-platform .bg-img-1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7633,47 +7633,47 @@ platform
     height: 100%;
     left: 0;
     z-index: -1; }
-  #unitrade-platform .img-preview-1 {
+  #swapall-platform .img-preview-1 {
     width: 100%;
     max-width: 500px;
     height: auto;
     /* margin-left: 20px; */
     display: block; }
-  #unitrade-platform .img-preview-2 {
+  #swapall-platform .img-preview-2 {
     display: none; }
-  #unitrade-platform ul {
+  #swapall-platform ul {
     list-style-type: none;
     padding-left: 20px; }
-    #unitrade-platform ul li {
+    #swapall-platform ul li {
       margin-bottom: 35px; }
-      #unitrade-platform ul li:before {
+      #swapall-platform ul li:before {
         content: '';
-        background-color: #2945ff;
+        background-color: #3F60B3;
         width: 4px;
         height: 100%;
         position: absolute;
         left: -20px;
         border-radius: 5px; }
-    #unitrade-platform ul li:last-child {
+    #swapall-platform ul li:last-child {
       margin-bottom: 0; }
 
-#unitrade-benefits {
+#swapall-benefits {
   overflow-x: hidden; }
-  #unitrade-benefits div:not(.row) {
+  #swapall-benefits div:not(.row) {
     margin-bottom: 40px; }
-  #unitrade-benefits i {
+  #swapall-benefits i {
     color: #17C3B2;
     display: inline-block;
     font-size: 22px; }
-  #unitrade-benefits div:nth-child(3) i {
+  #swapall-benefits div:nth-child(3) i {
     color: #D9DBF1; }
-  #unitrade-benefits div:nth-child(4) i {
+  #swapall-benefits div:nth-child(4) i {
     color: #46B1C9; }
-  #unitrade-benefits div:nth-child(5) i {
+  #swapall-benefits div:nth-child(5) i {
     color: #A5F8D3; }
-  #unitrade-benefits div:nth-child(6) i {
+  #swapall-benefits div:nth-child(6) i {
     color: #E26D5A; }
-  #unitrade-benefits h4 {
+  #swapall-benefits h4 {
     display: inline-block;
     padding-left: 10px; }
 
@@ -7698,10 +7698,10 @@ platform
 /***
 quote
 ***/
-#unitrade-quote {
+#swapall-quote {
   position: relative;
   padding-bottom: 4em; }
-  #unitrade-quote .bg-img-1 {
+  #swapall-quote .bg-img-1 {
     background-repeat: no-repeat;
     position: absolute;
     top: -80%;
@@ -7710,39 +7710,39 @@ quote
     right: -33%;
     background-position: center;
     background-size: cover; }
-  #unitrade-quote .unitrade-logo {
+  #swapall-quote .swapall-logo {
     position: relative; }
-    #unitrade-quote .unitrade-logo i {
+    #swapall-quote .swapall-logo i {
       position: absolute;
       left: -30px;
       top: -60px;
       font-size: 120px;
       opacity: 0.1; }
-  #unitrade-quote .quote {
+  #swapall-quote .quote {
     color: #FFFFFF;
     font-size: 24px; }
-    #unitrade-quote .quote span {
+    #swapall-quote .quote span {
       font-weight: bold;
       color: #8161ff; }
-  #unitrade-quote .quote-author i {
+  #swapall-quote .quote-author i {
     color: #00acee; }
 
 /***
 token info
 ***/
-#what-is-unitrade-token-for {
+#what-is-swapall-token-for {
   padding-bottom: 0;
   margin-bottom: -2px; }
-  #what-is-unitrade-token-for h1 {
+  #what-is-swapall-token-for h1 {
     margin-bottom: 50px; }
-  #what-is-unitrade-token-for .unitrade-token-for-mobile {
+  #what-is-swapall-token-for .swapall-token-for-mobile {
     padding-bottom: 25px; }
-  #what-is-unitrade-token-for .unitrade-token-for {
+  #what-is-swapall-token-for .swapall-token-for {
     display: none; }
-  #what-is-unitrade-token-for hr {
+  #what-is-swapall-token-for hr {
     background-color: #E8E8F1;
     margin: 0; }
-  #what-is-unitrade-token-for .block {
+  #what-is-swapall-token-for .block {
     background-color: #ffffff;
     -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
     -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
@@ -7752,7 +7752,7 @@ token info
     display: flex;
     align-items: center;
     margin-bottom: 25px; }
-    #what-is-unitrade-token-for .block .emoji {
+    #what-is-swapall-token-for .block .emoji {
       width: 44px;
       height: 44px;
       border-radius: 10px;
@@ -7761,194 +7761,194 @@ token info
       font-size: 26px;
       text-align: center;
       line-height: 44px; }
-      #what-is-unitrade-token-for .block .emoji i {
+      #what-is-swapall-token-for .block .emoji i {
         display: block;
         font-size: 18px;
         line-height: 44px; }
-    #what-is-unitrade-token-for .block p, #what-is-unitrade-token-for .block div {
+    #what-is-swapall-token-for .block p, #what-is-swapall-token-for .block div {
       margin-bottom: 0;
       width: 90%; }
-    #what-is-unitrade-token-for .block div p {
+    #what-is-swapall-token-for .block div p {
       width: 100%; }
 
 /***
 token info
 ***/
-#unitrade-token-information .img-bg-3 {
+#swapall-token-information .img-bg-3 {
   display: none; }
 
-#unitrade-token-information img {
+#swapall-token-information img {
   width: 100%;
   height: auto; }
 
-#unitrade-token-information .total-supply, #unitrade-token-information .unitrade-contract-link, #unitrade-token-information .unitrade-token-breakdown {
+#swapall-token-information .total-supply, #swapall-token-information .swapall-contract-link, #swapall-token-information .swapall-token-breakdown {
   background-color: #FFFFFF;
   border-radius: 20px; }
 
-#unitrade-token-information .total-supply {
+#swapall-token-information .total-supply {
   margin-bottom: 25px;
   -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
   -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
   box-shadow: 4px 10px 12px 0px #eaebf1; }
-  #unitrade-token-information .total-supply img {
+  #swapall-token-information .total-supply img {
     border-radius: 20px; }
 
-#unitrade-token-information .unitrade-token-breakdown {
+#swapall-token-information .swapall-token-breakdown {
   -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
   -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
   box-shadow: 4px 10px 12px 0px #eaebf1; }
 
-#unitrade-token-information .unitrade-contract-link {
+#swapall-token-information .swapall-contract-link {
   padding: 2em 1.25em;
   overflow-wrap: break-word;
   margin-bottom: 25px;
   -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
   -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
   box-shadow: 4px 10px 12px 0px #eaebf1; }
-  #unitrade-token-information .unitrade-contract-link p {
+  #swapall-token-information .swapall-contract-link p {
     padding-bottom: 0em;
     margin-bottom: 0em; }
-  #unitrade-token-information .unitrade-contract-link span {
+  #swapall-token-information .swapall-contract-link span {
     margin-bottom: 10px;
     font-size: 12px;
     display: block;
     color: #888888;
     font-weight: 400; }
-  #unitrade-token-information .unitrade-contract-link a {
+  #swapall-token-information .swapall-contract-link a {
     display: block; }
 
-#unitrade-token-information .unitrade-token-header {
+#swapall-token-information .swapall-token-header {
   margin-bottom: 25px; }
-  #unitrade-token-information .unitrade-token-header img {
+  #swapall-token-information .swapall-token-header img {
     border-radius: 20px;
     width: 100px;
     height: 100px;
     display: inline-block; }
-  #unitrade-token-information .unitrade-token-header h3 {
+  #swapall-token-information .swapall-token-header h3 {
     display: inline-block;
     padding-left: 20px;
     font-size: 22px; }
 
-#unitrade-token-information p span {
+#swapall-token-information p span {
   color: #181818;
   font-weight: bold; }
 
-#unitrade-token-information .unitrade-token-breakdown {
+#swapall-token-information .swapall-token-breakdown {
   padding: 2em 1.25em;
   margin-bottom: 35px;
   margin-top: 50px; }
-  #unitrade-token-information .unitrade-token-breakdown table {
+  #swapall-token-information .swapall-token-breakdown table {
     width: 100%; }
-  #unitrade-token-information .unitrade-token-breakdown table tr:last-child p {
+  #swapall-token-information .swapall-token-breakdown table tr:last-child p {
     margin-bottom: 0; }
-  #unitrade-token-information .unitrade-token-breakdown table tr:last-child .text {
+  #swapall-token-information .swapall-token-breakdown table tr:last-child .text {
     padding-bottom: 0; }
-  #unitrade-token-information .unitrade-token-breakdown .blue, #unitrade-token-information .unitrade-token-breakdown .tan, #unitrade-token-information .unitrade-token-breakdown .lighter-red, #unitrade-token-information .unitrade-token-breakdown .pink {
+  #swapall-token-information .swapall-token-breakdown .blue, #swapall-token-information .swapall-token-breakdown .tan, #swapall-token-information .swapall-token-breakdown .lighter-red, #swapall-token-information .swapall-token-breakdown .pink {
     width: 20px;
     height: 20px;
     border-radius: 6px;
     background-color: #5571AE;
     margin-top: 5px; }
-  #unitrade-token-information .unitrade-token-breakdown .tan {
+  #swapall-token-information .swapall-token-breakdown .tan {
     background-color: #9CA9D3; }
 
-  #unitrade-token-information .unitrade-token-breakdown .pink {
+  #swapall-token-information .swapall-token-breakdown .pink {
     background-color: #D84E5F; }
-  #unitrade-token-information .unitrade-token-breakdown .icon {
+  #swapall-token-information .swapall-token-breakdown .icon {
     width: 20px;
     padding-right: 20px;
     vertical-align: top; }
-  #unitrade-token-information .unitrade-token-breakdown .text {
+  #swapall-token-information .swapall-token-breakdown .text {
     width: 80%;
     padding-bottom: 25px; }
-    #unitrade-token-information .unitrade-token-breakdown .text h4 {
+    #swapall-token-information .swapall-token-breakdown .text h4 {
       margin-bottom: 0; }
-    #unitrade-token-information .unitrade-token-breakdown .text p {
+    #swapall-token-information .swapall-token-breakdown .text p {
       font-size: 12px;
       font-weight: 400; }
-  #unitrade-token-information .unitrade-token-breakdown .amount {
+  #swapall-token-information .swapall-token-breakdown .amount {
     vertical-align: top;
     text-align: right;
     color: #888888;
     font-weight: 400;
     font-size: 12px; }
 
-#unitrade-token-information .unitrade-token-info {
+#swapall-token-information .swapall-token-info {
   margin-bottom: 50px; }
-  #unitrade-token-information .unitrade-token-info .blue, #unitrade-token-information .unitrade-token-info .tan, #unitrade-token-information .unitrade-token-info .lighter-red, #unitrade-token-information .unitrade-token-info .pink {
+  #swapall-token-information .swapall-token-info .blue, #swapall-token-information .swapall-token-info .tan, #swapall-token-information .swapall-token-info .lighter-red, #swapall-token-information .swapall-token-info .pink {
     width: 20px;
     height: 20px;
     border-radius: 6px;
     background-color: #5672AF;
     margin-top: 5px; }
-  #unitrade-token-information .unitrade-token-info .tan {
+  #swapall-token-information .swapall-token-info .tan {
     background-color: #9CA8D3; }
-  #unitrade-token-information .unitrade-token-info .lighter-red {
+  #swapall-token-information .swapall-token-info .lighter-red {
     background-color: #E0706F; }
-  #unitrade-token-information .unitrade-token-info .pink {
+  #swapall-token-information .swapall-token-info .pink {
     background-color: #D84E5F; }
-  #unitrade-token-information .unitrade-token-info h2 {
+  #swapall-token-information .swapall-token-info h2 {
     display: inline-block; }
-    #unitrade-token-information .unitrade-token-info h2 span {
+    #swapall-token-information .swapall-token-info h2 span {
       color: #888888;
       font-weight: 400;
       padding: 0 1em; }
-    #unitrade-token-information .unitrade-token-info h2 div {
+    #swapall-token-information .swapall-token-info h2 div {
       display: inline-block; }
 
 /***
 faq
 ***/
-#unitrade-faq {
+#swapall-faq {
   padding-bottom: 0; }
-  #unitrade-faq h1 {
+  #swapall-faq h1 {
     margin-bottom: 50px; }
-  #unitrade-faq ul {
+  #swapall-faq ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-bottom: 60px; }
-    #unitrade-faq ul li {
+    #swapall-faq ul li {
       margin-bottom: 10px; }
-  #unitrade-faq .open {
+  #swapall-faq .open {
     padding-left: 1em; }
-    #unitrade-faq .open .faq-answer-content {
+    #swapall-faq .open .faq-answer-content {
       min-height: 100px;
       display: block; }
-    #unitrade-faq .open h4 {
+    #swapall-faq .open h4 {
       background-color: transparent;
       padding-left: 0; }
-      #unitrade-faq .open h4 a {
+      #swapall-faq .open h4 a {
         color: #FFFFFF;
         text-decoration: none; }
-        #unitrade-faq .open h4 a:focus, #unitrade-faq .open h4 a:active, #unitrade-faq .open h4 a:hover {
+        #swapall-faq .open h4 a:focus, #swapall-faq .open h4 a:active, #swapall-faq .open h4 a:hover {
           color: #ffffff;
           text-decoration: none; }
-      #unitrade-faq .open h4 i {
+      #swapall-faq .open h4 i {
         background-color: #35353F;
         padding: 1em;
         border-radius: 50%;
         top: 8px;
         right: 0; }
-        #unitrade-faq .open h4 i:before {
+        #swapall-faq .open h4 i:before {
           content: '\f068'; }
-  #unitrade-faq .faq-answer-content {
+  #swapall-faq .faq-answer-content {
     display: none;
     padding-right: 2.25em;
     position: relative; }
-  #unitrade-faq h4 {
+  #swapall-faq h4 {
     background-color: #35353F;
     border-radius: 15px;
     padding: 1em;
     position: relative;
     padding-right: 2.25em; }
-    #unitrade-faq h4 i {
+    #swapall-faq h4 i {
       position: absolute;
       right: 1em;
       top: 18px; }
-    #unitrade-faq h4 a {
+    #swapall-faq h4 a {
       display: block; }
-  #unitrade-faq .close-answer {
+  #swapall-faq .close-answer {
     position: absolute;
     top: .25em;
     right: 0;
@@ -7961,22 +7961,22 @@ faq
 /***
 comunnity
 ***/
-#unitrade-community {
+#swapall-community {
   padding-top: 0;
   padding-bottom: 10px; }
-  #unitrade-community img {
+  #swapall-community img {
     height: 62px;
     width: auto;
     margin: 0 auto 25px auto;
     text-align: center;
     display: block; }
-  #unitrade-community h1 {
+  #swapall-community h1 {
     margin-bottom: 10px;
     text-align: center; }
-  #unitrade-community p {
+  #swapall-community p {
     margin-bottom: 50px;
     text-align: center; }
-  #unitrade-community a {
+  #swapall-community a {
     display: block;
     border-radius: 8px;
     background: linear-gradient(272.25deg, rgba(81, 36, 255, 0.15) 0.08%, rgba(130, 98, 255, 0.15) 95.38%, rgba(138, 113, 234, 0.15) 95.38%);
@@ -7986,62 +7986,62 @@ comunnity
     text-align: center;
     padding-left: 0;
     border: 1px solid #5471AE; }
-    #unitrade-community a i {
+    #swapall-community a i {
       padding-right: 10px; }
-    #unitrade-community a:hover {
+    #swapall-community a:hover {
       background-color: rgba(81, 36, 255, 0.15); }
 
-#unitrade-buy-token {
+#swapall-buy-token {
   padding-top: 0; }
-  #unitrade-buy-token h1 {
+  #swapall-buy-token h1 {
     text-align: center;
     font-size: 48px; }
-  #unitrade-buy-token p {
+  #swapall-buy-token p {
     text-align: center;
     margin-bottom: 50px;
     font-size: 18px; }
-  #unitrade-buy-token img {
+  #swapall-buy-token img {
     width: 100%;
     height: auto;
     border-radius: 20px; }
-  #unitrade-buy-token a {
+  #swapall-buy-token a {
     display: block;
     margin-bottom: 20px; }
 
-#unitrade-contributors h1 {
+#swapall-contributors h1 {
   text-align: center;
   font-size: 48px;
   margin-bottom: 50px; }
 
-#unitrade-contributors h5 {
+#swapall-contributors h5 {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 0; }
 
-#unitrade-contributors .contrib {
+#swapall-contributors .contrib {
   background-color: #363545;
   border-radius: 20px;
   padding: 28px 22px;
   margin-bottom: 30px; }
-  #unitrade-contributors .contrib p {
+  #swapall-contributors .contrib p {
     margin-bottom: 0;
     font-size: 16px; }
 
-#unitrade-contributors .contrib:nth-child(even) {
+#swapall-contributors .contrib:nth-child(even) {
   background-color: #3d3c4c; }
 
-#unitrade-contributors .social-links li:first-child a {
+#swapall-contributors .social-links li:first-child a {
   padding-left: 0; }
 
-#unitrade-contributors .social-links li a {
+#swapall-contributors .social-links li a {
   font-size: 25px; }
-  #unitrade-contributors .social-links li a i {
+  #swapall-contributors .social-links li a i {
     color: #6e48ff; }
 
-#unitrade-roadmap .roadmap-wrapper {
+#swapall-roadmap .roadmap-wrapper {
   position: relative;
   margin-top: 50px; }
-  #unitrade-roadmap .roadmap-wrapper .timeline {
+  #swapall-roadmap .roadmap-wrapper .timeline {
     background: linear-gradient(272.25deg, #3F5FB2 0.08%, #3F5FB2 95.38%, #3F5FB2 95.38%);
     width: 3px;
     height: 100%;
@@ -8049,34 +8049,34 @@ comunnity
     left: 0;
     top: 14px; }
 
-#unitrade-roadmap .roadmap {
+#swapall-roadmap .roadmap {
   list-style-type: none;
   margin: 0;
   margin-left: -11px;
   padding: 0;
   position: relative;
   z-index: 1; }
-  #unitrade-roadmap .roadmap li {
+  #swapall-roadmap .roadmap li {
     display: flex;
     align-items: flex-start;
     margin-bottom: 2.5em;
     position: relative; }
-    #unitrade-roadmap .roadmap li h1 {
+    #swapall-roadmap .roadmap li h1 {
       font-size: 20px;
       margin-bottom: 4px; }
-    #unitrade-roadmap .roadmap li p {
+    #swapall-roadmap .roadmap li p {
       font-size: 14px;
       margin-bottom: 0; }
-    #unitrade-roadmap .roadmap li .text {
+    #swapall-roadmap .roadmap li .text {
       padding-left: 1.25em;
       width: 90%; }
-    #unitrade-roadmap .roadmap li .marker {
+    #swapall-roadmap .roadmap li .marker {
       background-color: #5D5D7B;
       width: 25px;
       height: 25px;
       border-radius: 50%;
       border: 6px solid #434355; }
-    #unitrade-roadmap .roadmap li:before {
+    #swapall-roadmap .roadmap li:before {
       content: "";
       background-color: #888888;
       width: 3px;
@@ -8085,21 +8085,21 @@ comunnity
       left: 11px;
       top: 30px;
       z-index: -1; }
-  #unitrade-roadmap .roadmap li:last-child:before {
+  #swapall-roadmap .roadmap li:last-child:before {
     height: 100%; }
-  #unitrade-roadmap .roadmap .complete h1 {
+  #swapall-roadmap .roadmap .complete h1 {
     background: #3F5FB2;
     background: linear-gradient(90deg, #3F5FB2 50%, #3F5FB2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-  #unitrade-roadmap .roadmap .complete p {
+  #swapall-roadmap .roadmap .complete p {
     color: #ffffff; }
-  #unitrade-roadmap .roadmap .complete .marker {
+  #swapall-roadmap .roadmap .complete .marker {
     background-color: #ffffff;
     border-color: #3F5FB2; }
-  #unitrade-roadmap .roadmap .complete:before {
+  #swapall-roadmap .roadmap .complete:before {
     width: 0; }
-  #unitrade-roadmap .roadmap h1, #unitrade-roadmap .roadmap p {
+  #swapall-roadmap .roadmap h1, #swapall-roadmap .roadmap p {
     color: #888888; }
 
 footer {
@@ -8108,10 +8108,12 @@ footer {
   footer .container {
     position: relative;
     z-index: 2; }
-  footer img {
-    display: none;
-    width: 100%;
-    height: auto; }
+   footer img {
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto; } 
   footer .social-links {
     display: block;
     text-align: center; }
@@ -8163,10 +8165,10 @@ footer {
   #hero .bg-img-1 {
     height: 60%;
     z-index: -1; }
-  #unitrade-platform {
+  #swapall-platform {
     height: auto;
     padding-bottom: 0; }
-    #unitrade-platform .img-preview-1 {
+    #swapall-platform .img-preview-1 {
       /* margin-bottom: -50px;  */
     }
   .bg-img-special {
@@ -8179,11 +8181,11 @@ footer {
       width: 130%;
       height: 100%;
       right: -35%; }
-  #unitrade-roadmap .roadmap li:last-child {
+  #swapall-roadmap .roadmap li:last-child {
     margin-bottom: 0; }
-    #unitrade-roadmap .roadmap li:last-child:before {
+    #swapall-roadmap .roadmap li:last-child:before {
       height: 50%; }
-  #unitrade-roadmap .roadmap-wrapper .timeline {
+  #swapall-roadmap .roadmap-wrapper .timeline {
     height: 95%; } }
 
 @media screen and (min-width: 576px) {
@@ -8194,9 +8196,9 @@ footer {
     .bg-img-special .bg-img-1 {
       width: 130%;
       height: 130%; }
-  #unitrade-platform .img-preview-1 {
+  #swapall-platform .img-preview-1 {
     margin-left: 75px; }
-  #what-is-unitrade-token-for {
+  #what-is-swapall-token-for {
     margin-bottom: -2px; } }
 
 @media screen and (min-width: 768px) {
@@ -8235,32 +8237,32 @@ footer {
     width: 75%;
     height: 75%;
     z-index: -1; }
-  #unitrade-platform {
+  #swapall-platform {
     min-height: 600px; }
-    #unitrade-platform .platform-image {
+    #swapall-platform .platform-image {
       position: absolute;
       right: 0; }
-    #unitrade-platform .img-preview-2 {
+    #swapall-platform .img-preview-2 {
       display: block;
       margin-top: -100px; }
-  #unitrade-quote {
+  #swapall-quote {
     max-width: 600px;
     margin: 0 auto; }
-  #what-is-unitrade-token-for h1 {
+  #what-is-swapall-token-for h1 {
     max-width: 500px; }
-  #unitrade-token-information .unitrade-token-header img {
+  #swapall-token-information .swapall-token-header img {
     width: 70px;
     height: 70px; }
-  #unitrade-token-information .unitrade-token-breakdown {
+  #swapall-token-information .swapall-token-breakdown {
     margin-top: 25px; }
-  #unitrade-community p {
+  #swapall-community p {
     max-width: 500px;
     margin: 0 auto 50px auto; }
-  #unitrade-community .row {
+  #swapall-community .row {
     justify-content: center; }
-  #unitrade-buy-token .row {
+  #swapall-buy-token .row {
     text-align: center; }
-  #unitrade-buy-token img {
+  #swapall-buy-token img {
     max-width: 320px; }
   footer img {
     display: inline-block;
@@ -8324,47 +8326,47 @@ footer {
       font-size: 60px;
       max-width: 680px;
       line-height: 1.2; }
-  #unitrade-platform {
+  #swapall-platform {
     min-height: 750px; }
   .bg-img-special .bg-img-1 {
     width: 700px;
     height: 420px;
     right: -20%; }
-  #unitrade-quote {
+  #swapall-quote {
     padding-bottom: 100px;
     padding-top: 100px; }
-  #unitrade-token-information .token-info-wrapper {
+  #swapall-token-information .token-info-wrapper {
     padding-bottom: 5.25em; }
-  .unitrade-token-for-mobile {
+  .swapall-token-for-mobile {
     max-width: 875px;
     margin: 0 auto; }
-  #unitrade-roadmap {
+  #swapall-roadmap {
     max-width: 875px;
     margin: 0 auto; }
-  #unitrade-faq {
+  #swapall-faq {
     max-width: 875px;
     margin: 0 auto; }
-  #unitrade-community {
+  #swapall-community {
     max-width: 875px;
     margin: 0 auto; }
-  #unitrade-buy-token .col-lg-6 img {
+  #swapall-buy-token .col-lg-6 img {
     width: 50%; }
-  #unitrade-buy-token .row .col-12:nth-child(2) {
+  #swapall-buy-token .row .col-12:nth-child(2) {
     text-align: right;
     padding-right: 15px; }
-  #unitrade-buy-token .row .col-lg-6:nth-child(3) {
+  #swapall-buy-token .row .col-lg-6:nth-child(3) {
     text-align: left;
     padding-left: 15px; }
-  #unitrade-buy-token .row .col-lg-6:nth-child(4) {
+  #swapall-buy-token .row .col-lg-6:nth-child(4) {
     text-align: center;
     padding-left: 15px; } }
 
 @media screen and (min-width: 1140px) {
   #hero {
     min-height: 1136px; }
-  #unitrade-roadmap h1, #unitrade-roadmap p {
+  #swapall-roadmap h1, #swapall-roadmap p {
     text-align: center; }
-  #unitrade-roadmap .roadmap-wrapper h1, #unitrade-roadmap .roadmap-wrapper p {
+  #swapall-roadmap .roadmap-wrapper h1, #swapall-roadmap .roadmap-wrapper p {
     text-align: left; } }
 
 @media screen and (min-width: 1280px) {
@@ -8372,50 +8374,50 @@ footer {
     padding-top: 10em; }
   #hero h1 {
     margin-top: 75px; }
-  .hero-wrapper .unitrade-preview-dashboard {
+  .hero-wrapper .swapall-preview-dashboard {
     width: 100%;
     left: 0; }
-  #unitrade-platform {
+  #swapall-platform {
     min-height: 900px; }
-    #unitrade-platform h1 {
+    #swapall-platform h1 {
       font-size: 48px; }
-    #unitrade-platform p, #unitrade-platform ul, #unitrade-platform li {
+    #swapall-platform p, #swapall-platform ul, #swapall-platform li {
       font-size: 18px; }
-    #unitrade-platform .img-preview-1 {
+    #swapall-platform .img-preview-1 {
       margin-left: 25%;
       width: 85%; }
-    #unitrade-platform .img-preview-2 {
+    #swapall-platform .img-preview-2 {
       margin-top: -20%;
       margin-left: 8%; }
-  #unitrade-benefits h1 {
+  #swapall-benefits h1 {
     font-size: 48px;
     width: 300px; }
-  #unitrade-benefits h4 {
+  #swapall-benefits h4 {
     font-size: 20px; }
-  #unitrade-benefits p {
+  #swapall-benefits p {
     font-size: 18px; }
-  #unitrade-benefits .unitrade-benefits-box {
+  #swapall-benefits .swapall-benefits-box {
     max-width: 300px;
     margin-bottom: 100px; }
   .bg-img-special {
     height: 370px; }
-  #unitrade-quote {
+  #swapall-quote {
     padding-bottom: 5.25em;
     padding-top: 25px; }
-  #what-is-unitrade-token-for {
+  #what-is-swapall-token-for {
     overflow: hidden; }
-    #what-is-unitrade-token-for h1 {
+    #what-is-swapall-token-for h1 {
       font-size: 48px; }
-    #what-is-unitrade-token-for .unitrade-token-for {
+    #what-is-swapall-token-for .swapall-token-for {
       display: block;
       margin-top: 100px;
       position: relative; }
-      #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper {
+      #what-is-swapall-token-for .swapall-token-for .token-for-wrapper {
         display: flex;
         justify-content: space-between;
         margin-bottom: 100px;
         position: relative; }
-        #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper:before {
+        #what-is-swapall-token-for .swapall-token-for .token-for-wrapper:before {
           content: '';
           width: 200%;
           height: 4px;
@@ -8423,10 +8425,10 @@ footer {
           background: linear-gradient(272.25deg, #1D2851 0.08%, #3F5FB2 95.38%, #9BA8D2 95.38%);
           left: 0;
           top: 40px; }
-        #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper .token-for-item {
+        #what-is-swapall-token-for .swapall-token-for .token-for-wrapper .token-for-item {
           width: 30%;
           position: relative; }
-          #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper .token-for-item span {
+          #what-is-swapall-token-for .swapall-token-for .token-for-wrapper .token-for-item span {
             position: absolute;
             background: #6e48ff;
             background: linear-gradient(199.59deg, #E6E6F0 22.49%, rgba(230, 230, 240, 0) 79.79%);
@@ -8437,7 +8439,7 @@ footer {
             right: -10px;
             font-size: 200px;
             font-weight: bold; }
-          #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper .token-for-item .icon-box {
+          #what-is-swapall-token-for .swapall-token-for .token-for-wrapper .token-for-item .icon-box {
             background-color: #ffffff;
             -webkit-box-shadow: 4px 10px 12px 0px #eaebf1;
             -moz-box-shadow: 4px 10px 12px 0px #eaebf1;
@@ -8448,22 +8450,22 @@ footer {
             width: 85px;
             text-align: center;
             margin-bottom: 40px; }
-            #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper .token-for-item .icon-box i {
+            #what-is-swapall-token-for .swapall-token-for .token-for-wrapper .token-for-item .icon-box i {
               display: block;
               font-size: 22px;
               line-height: 44px;
               color: #3F5FB2; }
-          #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper .token-for-item h4 {
+          #what-is-swapall-token-for .swapall-token-for .token-for-wrapper .token-for-item h4 {
             font-size: 20px; }
-          #what-is-unitrade-token-for .unitrade-token-for .token-for-wrapper .token-for-item p {
+          #what-is-swapall-token-for .swapall-token-for .token-for-wrapper .token-for-item p {
             font-size: 18px;
             width: 80%; }
-    #what-is-unitrade-token-for .unitrade-token-for-mobile {
+    #what-is-swapall-token-for .swapall-token-for-mobile {
       display: none; }
-  #unitrade-token-information {
+  #swapall-token-information {
     padding-top: 5em;
     position: relative; }
-    #unitrade-token-information .img-bg-3 {
+    #swapall-token-information .img-bg-3 {
       display: block;
       position: absolute;
       width: 100%;
@@ -8474,71 +8476,71 @@ footer {
       top: 0;
       right: 0;
       z-index: -1; }
-    #unitrade-token-information .unitrade-contract-link {
+    #swapall-token-information .swapall-contract-link {
       margin-top: 65px; }
-    #unitrade-token-information h1 {
+    #swapall-token-information h1 {
       font-size: 48px; }
-  #unitrade-faq {
+  #swapall-faq {
     padding-top: 5em;
     padding-bottom: 5em; }
-    #unitrade-faq h1 {
+    #swapall-faq h1 {
       font-size: 48px; }
-    #unitrade-faq h4 {
+    #swapall-faq h4 {
       font-size: 20px; }
-      #unitrade-faq h4 a:hover {
+      #swapall-faq h4 a:hover {
         opacity: 0.75; }
-      #unitrade-faq h4 i {
+      #swapall-faq h4 i {
         top: 25px; }
-    #unitrade-faq p {
+    #swapall-faq p {
       font-size: 18px; }
-  #unitrade-community h1 {
+  #swapall-community h1 {
     font-size: 48px; }
-  #unitrade-community p {
+  #swapall-community p {
     font-size: 18px; }
-  #unitrade-contributors h3 {
+  #swapall-contributors h3 {
     font-size: 20px; }
-  #unitrade-roadmap {
+  #swapall-roadmap {
     max-width: none;
     margin: auto;
     padding-bottom: 0; }
-    #unitrade-roadmap h1 {
+    #swapall-roadmap h1 {
       font-size: 48px; }
-    #unitrade-roadmap p {
+    #swapall-roadmap p {
       font-size: 18px; }
-    #unitrade-roadmap .roadmap-wrapper {
+    #swapall-roadmap .roadmap-wrapper {
       margin-top: 250px; }
-      #unitrade-roadmap .roadmap-wrapper .timeline {
+      #swapall-roadmap .roadmap-wrapper .timeline {
         width: 100%;
         height: 3px;
         top: 12px; }
-    #unitrade-roadmap .roadmap {
+    #swapall-roadmap .roadmap {
       display: flex;
       justify-content: space-between; }
-      #unitrade-roadmap .roadmap li {
+      #swapall-roadmap .roadmap li {
         position: relative; }
-        #unitrade-roadmap .roadmap li .text {
+        #swapall-roadmap .roadmap li .text {
           padding-left: 0;
           width: 100%; }
-        #unitrade-roadmap .roadmap li:before {
+        #swapall-roadmap .roadmap li:before {
           height: 3px;
           width: 100%;
           top: 12px; }
-        #unitrade-roadmap .roadmap li .marker {
+        #swapall-roadmap .roadmap li .marker {
           position: absolute; }
-      #unitrade-roadmap .roadmap li:last-child:before {
+      #swapall-roadmap .roadmap li:last-child:before {
         width: 100%;
         height: 3px; }
-      #unitrade-roadmap .roadmap li:nth-child(odd) {
+      #swapall-roadmap .roadmap li:nth-child(odd) {
         margin-top: 50px; }
-        #unitrade-roadmap .roadmap li:nth-child(odd) .marker {
+        #swapall-roadmap .roadmap li:nth-child(odd) .marker {
           margin-top: -50px; }
-        #unitrade-roadmap .roadmap li:nth-child(odd):before {
+        #swapall-roadmap .roadmap li:nth-child(odd):before {
           top: -38px; }
-      #unitrade-roadmap .roadmap li:nth-child(even) {
+      #swapall-roadmap .roadmap li:nth-child(even) {
         margin-top: -150px; }
-        #unitrade-roadmap .roadmap li:nth-child(even) .marker {
+        #swapall-roadmap .roadmap li:nth-child(even) .marker {
           margin-top: 150px; }
-        #unitrade-roadmap .roadmap li:nth-child(even):before {
+        #swapall-roadmap .roadmap li:nth-child(even):before {
           top: 162px; } }
 
 @media screen and (min-width: 1366px) {
@@ -8550,7 +8552,7 @@ footer {
     min-height: 1280px; }
   .hero-wrapper .bg-img-1 {
     max-width: 1200px; }
-  .hero-wrapper .unitrade-preview-dashboard {
+  .hero-wrapper .swapall-preview-dashboard {
     max-width: 1400px;
     left: 10%; } }
 
@@ -8560,7 +8562,7 @@ footer {
     margin: 0 auto; } }
 
 @media screen and (max-width: 767px){
-  .hero-wrapper .unitrade-preview-dashboard {
+  .hero-wrapper .swapall-preview-dashboard {
     visibility: hidden; }
   #hero p {
     margin-top: 100px
