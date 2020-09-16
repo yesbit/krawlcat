@@ -8161,6 +8161,15 @@ footer {
 .copyright {
   font-size: 12px; }
 
+@media screen and (min-width:300px){
+  footer img {
+    display: block;
+    margin-top: -14px; 
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;}
+}
+
 @media screen and (min-width: 442px) {
   #hero .bg-img-1 {
     height: 60%;
@@ -8265,8 +8274,9 @@ footer {
   #swapall-buy-token img {
     max-width: 320px; }
   footer img {
-    display: inline-block;
-    margin-top: -14px; }
+    /* display: inline-block;
+    margin-top: -14px; */
+   width:100%}
   footer .footer-menu {
     display: flex;
     justify-content: space-between; }
